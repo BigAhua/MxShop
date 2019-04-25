@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5a87c002-f869-477f-99ae-201e9c441b78" name="dahua@111.231.199.107:22" url="http:///">
+        <fileTransfer host="111.231.199.107" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

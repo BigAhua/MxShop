@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+   <div id="myDiv"><h2>Let AJAX change this text</h2></div>
+    <button id="b01" type="button">Change Content</button>
+</body>
+<script>
+
+$(document).ready(function(){
+  $("#b01").click(function(){
+  htmlobj=$.ajax({url:"http://127.0.0.1:8000/goods/",async:false});
+  $("#myDiv").html(htmlobj.responseText);
+  });
+});
+</script>
+</html>
