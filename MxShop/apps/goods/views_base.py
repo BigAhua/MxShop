@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-__author__ = 'bobby'
 
 from django.views.generic.base import View
 

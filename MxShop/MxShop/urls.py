@@ -81,7 +81,7 @@ urlpatterns = [
 
     url(r'^index/', TemplateView.as_view(template_name="index.html"), name="index"),
 
-    url(r'docs/', include_docs_urls(title="慕学生鲜")),
+    url(r'docs/', include_docs_urls(title="生鲜")),
 
     #drf自带的token认证模式
     url(r'^api-token-auth/', views.obtain_auth_token),

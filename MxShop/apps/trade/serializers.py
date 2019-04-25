@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-__author__ = 'bobby'
 import time
 from rest_framework import serializers
 
